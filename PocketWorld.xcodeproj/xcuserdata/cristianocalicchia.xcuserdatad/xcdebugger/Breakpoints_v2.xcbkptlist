@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "46D3843D-5185-434C-BEA3-A98EC2787074"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "887A4704-81B7-4DD2-8492-407EE5CE978D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PocketWorld/CountriesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchCountries()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "887A4704-81B7-4DD2-8492-407EE5CE978D - 6c6fbb2aa2bf79fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PocketWorld.CountriesViewModel.fetchCountries() async -&gt; Swift.Optional&lt;Swift.Array&lt;PocketWorld.Countries.Country&gt;&gt;"
+                  moduleName = "PocketWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianocalicchia/Desktop/Personale/Swift/Apps/PocketWorld/PocketWorld/CountriesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "887A4704-81B7-4DD2-8492-407EE5CE978D - 42cf16f57b0510b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for PocketWorld.CountriesViewModel.fetchCountries() async -&gt; Swift.Optional&lt;Swift.Array&lt;PocketWorld.Countries.Country&gt;&gt;"
+                  moduleName = "PocketWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianocalicchia/Desktop/Personale/Swift/Apps/PocketWorld/PocketWorld/CountriesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "887A4704-81B7-4DD2-8492-407EE5CE978D - a1156d1714988502"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for PocketWorld.CountriesViewModel.fetchCountries() async -&gt; Swift.Optional&lt;Swift.Array&lt;PocketWorld.Countries.Country&gt;&gt;"
+                  moduleName = "PocketWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianocalicchia/Desktop/Personale/Swift/Apps/PocketWorld/PocketWorld/CountriesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "887A4704-81B7-4DD2-8492-407EE5CE978D - 40864611c3856703"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for PocketWorld.CountriesViewModel.fetchCountries() async -&gt; Swift.Optional&lt;Swift.Array&lt;PocketWorld.Countries.Country&gt;&gt;"
+                  moduleName = "PocketWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristianocalicchia/Desktop/Personale/Swift/Apps/PocketWorld/PocketWorld/CountriesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

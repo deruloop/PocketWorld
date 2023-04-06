@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF20805C293B8C1C0011E63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF20805B293B8C1C0011E63D /* Assets.xcassets */; };
+		BF20805F293B8C1C0011E63D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF20805E293B8C1C0011E63D /* Preview Assets.xcassets */; };
+		BF208069293B8C1C0011E63D /* PocketWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF208068293B8C1C0011E63D /* PocketWorldTests.swift */; };
+		BF20808D293B8D3A0011E63D /* CountriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20808C293B8D3A0011E63D /* CountriesView.swift */; };
+		BF20808F293B8D470011E63D /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20808E293B8D470011E63D /* CountryView.swift */; };
+		BF208092293B910C0011E63D /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = BF208091293B910C0011E63D /* Apollo */; };
+		BF208094293B91210011E63D /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF208093293B91210011E63D /* CountriesViewModel.swift */; };
+		BF208096293B93760011E63D /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF208095293B93760011E63D /* DataProvider.swift */; };
+		BF359723293DE49E00798D46 /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = BF359722293DE49E00798D46 /* Queries.graphql */; };
+		BF359725293DE61B00798D46 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = BF359724293DE61B00798D46 /* schema.json */; };
+		BF359728293DEC3200798D46 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF359727293DEC3200798D46 /* API.swift */; };
+		BF3BD3C3293EC09A006DC7F5 /* PocketWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BD3C2293EC09A006DC7F5 /* PocketWorldApp.swift */; };
+		BF3BD3C7293EC140006DC7F5 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BD3C6293EC140006DC7F5 /* HomeCoordinator.swift */; };
+		BF3BD3C9293EC389006DC7F5 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BD3C8293EC389006DC7F5 /* CountryViewModel.swift */; };
+		BF3BD3CB293EC8D6006DC7F5 /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BD3CA293EC8D6006DC7F5 /* HomeCoordinatorView.swift */; };
+		BF3BD3CF293ECAEF006DC7F5 /* View+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BD3CE293ECAEF006DC7F5 /* View+Navigation.swift */; };
+		BF5366AE293DF0D300230D46 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5366AD293DF0D300230D46 /* Countries.swift */; };
+		BF95A2F429472AF80084F393 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95A2F329472AF80084F393 /* Theme.swift */; };
+		BF95A2F6294761AE0084F393 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95A2F5294761AE0084F393 /* Shimmer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF208065293B8C1C0011E63D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF20804C293B8C1B0011E63D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF208053293B8C1B0011E63D;
+			remoteInfo = PocketWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF208054293B8C1B0011E63D /* PocketWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF20805B293B8C1C0011E63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF20805E293B8C1C0011E63D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF208064293B8C1C0011E63D /* PocketWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF208068293B8C1C0011E63D /* PocketWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketWorldTests.swift; sourceTree = "<group>"; };
+		BF20808C293B8D3A0011E63D /* CountriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesView.swift; sourceTree = "<group>"; };
+		BF20808E293B8D470011E63D /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		BF208093293B91210011E63D /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
+		BF208095293B93760011E63D /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		BF359722293DE49E00798D46 /* Queries.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		BF359724293DE61B00798D46 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		BF359727293DEC3200798D46 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BF3BD3C2293EC09A006DC7F5 /* PocketWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketWorldApp.swift; sourceTree = "<group>"; };
+		BF3BD3C6293EC140006DC7F5 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		BF3BD3C8293EC389006DC7F5 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		BF3BD3CA293EC8D6006DC7F5 /* HomeCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorView.swift; sourceTree = "<group>"; };
+		BF3BD3CE293ECAEF006DC7F5 /* View+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Navigation.swift"; sourceTree = "<group>"; };
+		BF5366AD293DF0D300230D46 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		BF95A2F329472AF80084F393 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BF95A2F5294761AE0084F393 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF208051293B8C1B0011E63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF208092293B910C0011E63D /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF208061293B8C1C0011E63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF20804B293B8C1B0011E63D = {
+			isa = PBXGroup;
+			children = (
+				BF208056293B8C1B0011E63D /* PocketWorld */,
+				BF208067293B8C1C0011E63D /* PocketWorldTests */,
+				BF208055293B8C1B0011E63D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF208055293B8C1B0011E63D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF208054293B8C1B0011E63D /* PocketWorld.app */,
+				BF208064293B8C1C0011E63D /* PocketWorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF208056293B8C1B0011E63D /* PocketWorld */ = {
+			isa = PBXGroup;
+			children = (
+				BF3BD3C2293EC09A006DC7F5 /* PocketWorldApp.swift */,
+				BF95A2F229472ADD0084F393 /* Core */,
+				BF5366AF293DF0E100230D46 /* Scenes */,
+				BF5366B0293DF10200230D46 /* Model */,
+				BF20805B293B8C1C0011E63D /* Assets.xcassets */,
+				BF20805D293B8C1C0011E63D /* Preview Content */,
+			);
+			path = PocketWorld;
+			sourceTree = "<group>";
+		};
+		BF20805D293B8C1C0011E63D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF20805E293B8C1C0011E63D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF208067293B8C1C0011E63D /* PocketWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF208068293B8C1C0011E63D /* PocketWorldTests.swift */,
+			);
+			path = PocketWorldTests;
+			sourceTree = "<group>";
+		};
+		BF35971F293DE45D00798D46 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				BF359722293DE49E00798D46 /* Queries.graphql */,
+				BF359727293DEC3200798D46 /* API.swift */,
+				BF359724293DE61B00798D46 /* schema.json */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		BF3BD3C4293EC11A006DC7F5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BF3BD3C6293EC140006DC7F5 /* HomeCoordinator.swift */,
+				BF3BD3CA293EC8D6006DC7F5 /* HomeCoordinatorView.swift */,
+				BF20808C293B8D3A0011E63D /* CountriesView.swift */,
+				BF208093293B91210011E63D /* CountriesViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BF3BD3C5293EC123006DC7F5 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				BF20808E293B8D470011E63D /* CountryView.swift */,
+				BF3BD3C8293EC389006DC7F5 /* CountryViewModel.swift */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		BF3BD3CD293ECADB006DC7F5 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				BF3BD3CE293ECAEF006DC7F5 /* View+Navigation.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		BF5366AF293DF0E100230D46 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BF3BD3C4293EC11A006DC7F5 /* Home */,
+				BF3BD3C5293EC123006DC7F5 /* Country */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BF5366B0293DF10200230D46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF208095293B93760011E63D /* DataProvider.swift */,
+				BF5366AD293DF0D300230D46 /* Countries.swift */,
+				BF35971F293DE45D00798D46 /* GraphQL */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF95A2F229472ADD0084F393 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BF3BD3CD293ECADB006DC7F5 /* ViewModifiers */,
+				BF95A2F329472AF80084F393 /* Theme.swift */,
+				BF95A2F5294761AE0084F393 /* Shimmer.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF208053293B8C1B0011E63D /* PocketWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF208078293B8C1C0011E63D /* Build configuration list for PBXNativeTarget "PocketWorld" */;
+			buildPhases = (
+				BF359726293DE66B00798D46 /* Generate Apollo GraphQL API */,
+				BF208050293B8C1B0011E63D /* Sources */,
+				BF208051293B8C1B0011E63D /* Frameworks */,
+				BF208052293B8C1B0011E63D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketWorld;
+			packageProductDependencies = (
+				BF208091293B910C0011E63D /* Apollo */,
+			);
+			productName = PocketWorld;
+			productReference = BF208054293B8C1B0011E63D /* PocketWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF208063293B8C1C0011E63D /* PocketWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF20807B293B8C1C0011E63D /* Build configuration list for PBXNativeTarget "PocketWorldTests" */;
+			buildPhases = (
+				BF208060293B8C1C0011E63D /* Sources */,
+				BF208061293B8C1C0011E63D /* Frameworks */,
+				BF208062293B8C1C0011E63D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF208066293B8C1C0011E63D /* PBXTargetDependency */,
+			);
+			name = PocketWorldTests;
+			productName = PocketWorldTests;
+			productReference = BF208064293B8C1C0011E63D /* PocketWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF20804C293B8C1B0011E63D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BF208053293B8C1B0011E63D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					BF208063293B8C1C0011E63D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = BF208053293B8C1B0011E63D;
+					};
+				};
+			};
+			buildConfigurationList = BF20804F293B8C1B0011E63D /* Build configuration list for PBXProject "PocketWorld" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF20804B293B8C1B0011E63D;
+			packageReferences = (
+				BF208090293B910C0011E63D /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = BF208055293B8C1B0011E63D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF208053293B8C1B0011E63D /* PocketWorld */,
+				BF208063293B8C1C0011E63D /* PocketWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF208052293B8C1B0011E63D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF359725293DE61B00798D46 /* schema.json in Resources */,
+				BF359723293DE49E00798D46 /* Queries.graphql in Resources */,
+				BF20805F293B8C1C0011E63D /* Preview Assets.xcassets in Resources */,
+				BF20805C293B8C1C0011E63D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF208062293B8C1C0011E63D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF359726293DE66B00798D46 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}/Model/GraphQL\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF208050293B8C1B0011E63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF359728293DEC3200798D46 /* API.swift in Sources */,
+				BF95A2F429472AF80084F393 /* Theme.swift in Sources */,
+				BF208094293B91210011E63D /* CountriesViewModel.swift in Sources */,
+				BF20808D293B8D3A0011E63D /* CountriesView.swift in Sources */,
+				BF3BD3C9293EC389006DC7F5 /* CountryViewModel.swift in Sources */,
+				BF3BD3CB293EC8D6006DC7F5 /* HomeCoordinatorView.swift in Sources */,
+				BF208096293B93760011E63D /* DataProvider.swift in Sources */,
+				BF95A2F6294761AE0084F393 /* Shimmer.swift in Sources */,
+				BF3BD3C3293EC09A006DC7F5 /* PocketWorldApp.swift in Sources */,
+				BF3BD3C7293EC140006DC7F5 /* HomeCoordinator.swift in Sources */,
+				BF20808F293B8D470011E63D /* CountryView.swift in Sources */,
+				BF5366AE293DF0D300230D46 /* Countries.swift in Sources */,
+				BF3BD3CF293ECAEF006DC7F5 /* View+Navigation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF208060293B8C1C0011E63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF208069293B8C1C0011E63D /* PocketWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF208066293B8C1C0011E63D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF208053293B8C1B0011E63D /* PocketWorld */;
+			targetProxy = BF208065293B8C1C0011E63D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF208076293B8C1C0011E63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF208077293B8C1C0011E63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF208079293B8C1C0011E63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PocketWorld/Preview Content\"";
+				DEVELOPMENT_TEAM = J6HPZ958W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristianocalicchia.PocketWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF20807A293B8C1C0011E63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PocketWorld/Preview Content\"";
+				DEVELOPMENT_TEAM = J6HPZ958W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristianocalicchia.PocketWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF20807C293B8C1C0011E63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6HPZ958W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristianocalicchia.PocketWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWorld.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketWorld";
+			};
+			name = Debug;
+		};
+		BF20807D293B8C1C0011E63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6HPZ958W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristianocalicchia.PocketWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketWorld.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketWorld";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF20804F293B8C1B0011E63D /* Build configuration list for PBXProject "PocketWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF208076293B8C1C0011E63D /* Debug */,
+				BF208077293B8C1C0011E63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF208078293B8C1C0011E63D /* Build configuration list for PBXNativeTarget "PocketWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF208079293B8C1C0011E63D /* Debug */,
+				BF20807A293B8C1C0011E63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF20807B293B8C1C0011E63D /* Build configuration list for PBXNativeTarget "PocketWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF20807C293B8C1C0011E63D /* Debug */,
+				BF20807D293B8C1C0011E63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF208090293B910C0011E63D /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.36.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF208091293B910C0011E63D /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF208090293B910C0011E63D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BF20804C293B8C1B0011E63D /* Project object */;
+}
